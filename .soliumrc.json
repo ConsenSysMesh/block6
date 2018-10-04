@@ -1,0 +1,23 @@
+{
+  "extends": "solium:recommended",
+  "plugins": [
+    "security"
+  ],
+  "rules": {
+    "blank-lines": "error",
+    "no-unused-vars": "error",
+    "deprecated-suicide": "error",
+    "function-order": "error",
+    "lbrace": "error",
+    "emit": "error",
+    "pragma-on-top": "error",
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "indentation": [
+      "error",
+      4
+    ]
+  }
+}

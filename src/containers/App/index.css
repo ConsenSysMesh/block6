@@ -1,0 +1,79 @@
+body {
+  background-image:
+    linear-gradient(
+      to top right,
+      royalblue, rebeccapurple
+    );
+}
+
+.App__content {
+  /* margin: 1rem; */
+}
+
+.Scoreboard {
+  height: 100vh;
+  color: white;
+}
+
+.Scoreboard__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 2rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15), 0 3px 7px rgba(0, 0, 0, 0.1);
+}
+
+.Scoreboard__player--title {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  margin: 2rem;
+}
+
+.Scoreboard__score--title {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  margin: 2rem;
+  text-decoration: underline;
+}
+
+.Scoreboard__player {
+  display: flex;
+  flex: 2;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.Scoreboard__player__avatar {
+  margin: 1rem;
+}
+
+.Scoreboard__player__avatar img {
+  border-radius: 50%;
+}
+
+.Scoreboard__score {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.Scoreboard__row--animate {
+  animation:linear infinite alternate;
+  animation-name: run;
+  animation-duration: 1s;
+}
+
+@keyframes run {
+  0% { transform: translateX(20px); }
+  50% { transform: translateX(-20px); }
+  100% { transform: translateX(20px); }
+}

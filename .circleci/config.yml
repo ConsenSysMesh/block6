@@ -1,0 +1,32 @@
+version: 2
+jobs:
+  test:
+    docker:
+      - image: circleci/node:8.9.4
+    steps:
+      - checkout
+      - run: npm install
+      - run: npm install truffle
+      - run: npm install ganache-cli
+      - run:
+          name: lint js
+          command: npm run lint:js
+      - run:
+          name: lint solidity
+          command: npm run lint:sol
+      - run:
+          name: lint css
+          command: npm run lint:css
+      - run:
+          name: Run Ganache
+          command: ./node_modules/ganache-cli/build/cli.node.js
+          background: true
+      - run:
+          name: Contract tests
+          command: npm run test
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test

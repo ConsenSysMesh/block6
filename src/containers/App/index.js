@@ -7,7 +7,7 @@ import blockies from 'blockies';
 
 import './index.css';
 
-const CONTRACT_ADDRESS = '0x8939e2cc61884db3aa74244ea3257153d8c198f6';
+const CONTRACT_ADDRESS = window.location.pathname.replace('/', '');
 
 class App extends Component {
   componentWillMount() {

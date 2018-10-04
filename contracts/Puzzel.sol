@@ -1,4 +1,4 @@
-pragma solidity ^0.4.23;
+pragma solidity ^0.4.25;
 
 contract Block6 {
     // -------------------------------------------------------------------------
@@ -34,7 +34,7 @@ contract Block6 {
     }
 
     modifier solvedAllPuzzles() {
-        require(playersScores[msg.sender] == 10000);
+        require(playersScores[msg.sender] == 11000);
         _;
     }
 

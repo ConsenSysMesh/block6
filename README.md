@@ -15,3 +15,10 @@
 
 ![image](https://user-images.githubusercontent.com/1683736/46492546-df204780-c7db-11e8-926e-4db2a8d9e1f1.png)
 To do this, paste the contract address in the At Address box above on Remix.
+
+
+## Helpful Docs
+- [Solidity Docs](https://solidity.readthedocs.io/en/latest/)
+- [Sitepoint getting started with Smart Contracts](https://www.sitepoint.com/solidity-for-beginners-a-guide-to-getting-started/)
+- [Ethereum dev](https://ethereumdev.io/)
+- [Solidity Development](https://medium.com/coinmonks/solidity-development-creating-our-first-smart-contract-54943b47d7f3)

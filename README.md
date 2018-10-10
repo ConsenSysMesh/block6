@@ -3,21 +3,21 @@
 
 ## To Play
 
-1) Get MetaMask setup on Rinkeby with some test ETH (rinkeby)
+1) Get MetaMask setup on Rinkeby with some test ETH (Rinkeby ETH).
 
 2) Setup Remix
    * Open [Remix](http://remix.ethereum.org/#optimize=true&version=soljson-v0.4.25+commit.59dbf8f1.js)
    
    * See [How to setup Remix for Block6](https://github.com/ConsenSys/block6/issues/1) if needed.
 
-3) Paste [THIS](https://raw.githubusercontent.com/ConsenSys/block6/master/contracts/Puzzel.sol?token=ABmxGB6-HHSjkF7vvSERhb_sA_iF9JMGks5bv4k7wA%3D%3D) smart contract into the remix IDE
+3) Paste [THIS](https://raw.githubusercontent.com/ConsenSys/block6/master/contracts/Puzzel.sol?token=ABmxGB6-HHSjkF7vvSERhb_sA_iF9JMGks5bv4k7wA%3D%3D) smart contract into the Remix IDE
 
 4) Connect Remix (with the above smart contract) to the following address: TDB
+     * To do this paste the above address into the AtAddress box on Remix (see below).
+
+     ![image](https://user-images.githubusercontent.com/1683736/46763014-a6ceac80-cca6-11e8-9ceb-55842180c83d.png)
 
 
-  * To do this, paste the address in the *AtAddress* box on Remix (see below).
-
-![image](https://user-images.githubusercontent.com/1683736/46492546-df204780-c7db-11e8-926e-4db2a8d9e1f1.png)
 
 
 ## Helpful Docs

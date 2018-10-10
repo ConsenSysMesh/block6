@@ -1,4 +1,4 @@
-### Block6
+# Block6
 
 
 ## To Play
@@ -15,9 +15,9 @@
 4) Connect Remix (with the above smart contract) to the following address: TDB
 
 
+* To do this, paste the address in the *AtAddress* box on Remix (see below).
 
 ![image](https://user-images.githubusercontent.com/1683736/46492546-df204780-c7db-11e8-926e-4db2a8d9e1f1.png)
-To do this, paste the contract address in the At Address box above on Remix.
 
 
 ## Helpful Docs

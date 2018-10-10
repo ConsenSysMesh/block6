@@ -33,8 +33,13 @@ contract Block6 {
         _;
     }
 
+    modifier onlyNewPlayers() {
+        require(!isPlaying[msg.sender]);
+        _;
+    }
+
     modifier solvedAllPuzzles() {
-        require(playersScores[msg.sender] == 11000);
+        require(playersScores[msg.sender] >= 11000);
         _;
     }
 
@@ -127,7 +132,7 @@ contract Block6 {
     // -------------------------------------------------------------------------
     // Helpers & Hints
     // -------------------------------------------------------------------------
-    function _register(string _userName) public {
+    function _register(string _userName) onlyNewPlayers public {
         numberOfPlayers++;
         isPlaying[msg.sender] = true;
         playersName[msg.sender] = _userName;
@@ -135,19 +140,7 @@ contract Block6 {
     }
 
     function _cutTheRedWire() onlyPlayers public {
-        /// call isRedLightFlashing with a 'tricky' false
         require(playersScores[msg.sender] > 0);
-        // playersScores[msg.sender] -= 1;
-    }
-
-    function _cutTheBlueWire(bool choice) onlyPlayers public {
-        isRedLightFlashing[msg.sender] = choice;
-    }
-
-    function _cutTheGreenWire() onlyPlayers public {
-        if (completedPuzzles[msg.sender][5] == false && completedPuzzles[msg.sender][6] == true) {
-            setPuzzleAsCompleted(msg.sender, 5);
-        }
     }
 
     // This is used to check if the address is --REDACTED--
@@ -162,6 +155,10 @@ contract Block6 {
         return playersScores[msg.sender];
     }
 
+    function _cutTheBlueWire(bool choice) onlyPlayers public {
+        isRedLightFlashing[msg.sender] = choice;
+    }
+
     // Game helper functions - returns the contracts ETH balance
     function getBalance() public view returns (uint256) {
         return address(this).balance;
@@ -170,6 +167,12 @@ contract Block6 {
     // Game helper functions - for the provided puzzle, returns if its been COMPLETED by the caller address
     function hasCompletedPuzzle(uint256 puzzleNumber) internal returns (bool) {
         return completedPuzzles[msg.sender][puzzleNumber];
+    }
+
+    function _cutTheGreenWire() onlyPlayers public {
+        if (completedPuzzles[msg.sender][5] == false && completedPuzzles[msg.sender][6] == true) {
+            setPuzzleAsCompleted(msg.sender, 5);
+        }
     }
 
     // Game helper functions - sets the provided puzzle as COMPLETED for the provided address

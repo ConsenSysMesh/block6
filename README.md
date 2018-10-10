@@ -5,7 +5,9 @@
 
 1) Get MetaMask setup on Rinkeby with some test ETH (rinkeby)
 
-2) Open http://remix.ethereum.org
+2) Open [Remix](http://remix.ethereum.org/#optimize=true&version=soljson-v0.4.25+commit.59dbf8f1.js)
+   
+   See [How to setup Remix for Block6](https://github.com/ConsenSys/block6/issues/1) is needed
 
 3) Past the smart contract below into the remix IDE - smart contract [HERE](https://raw.githubusercontent.com/ConsenSys/block6/master/contracts/Puzzel.sol?token=ABmxGB6-HHSjkF7vvSERhb_sA_iF9JMGks5bv4k7wA%3D%3D)
 

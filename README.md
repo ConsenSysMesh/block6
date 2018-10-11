@@ -24,6 +24,7 @@ The goal of the game is to be the first player to call the ```defuseBomb()``` me
 
 In order to call ```defuseBomb()``` you must **first** call each of the puzzle methods (```puzzle01``` - ```puzzle11```). The solutions to the puzzles will require some understanding of interacting with smart contracts, working with solidity, and smart contract security and exploits.
 
+Good luck!
 
 ## Helpful Docs
 - [Solidity Docs](https://solidity.readthedocs.io/en/latest/)
@@ -31,3 +32,6 @@ In order to call ```defuseBomb()``` you must **first** call each of the puzzle m
 - [Ethereum dev](https://ethereumdev.io/)
 - [Solidity Development](https://medium.com/coinmonks/solidity-development-creating-our-first-smart-contract-54943b47d7f3)
 - [Ethereum Smart Contract Security Best Practices](https://consensys.github.io/smart-contract-best-practices/)
+
+## Solutions
+Will be posted after the event.

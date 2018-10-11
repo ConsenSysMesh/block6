@@ -11,7 +11,7 @@
 
    * See [How to setup Remix for Block6](https://github.com/ConsenSys/block6/issues/1) if needed.
 
-4) Connect Remix (with the above smart contract) to the following address: TDB
+4) Connect Remix (with the above smart contract) to the following address: 0xfd1562230fa623c01c28c3ea72d8f2e023d6352d
      * To do this paste the above address into the AtAddress box on Remix (see below).
 
      ![image](https://user-images.githubusercontent.com/1683736/46763014-a6ceac80-cca6-11e8-9ceb-55842180c83d.png)

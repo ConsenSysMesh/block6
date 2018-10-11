@@ -133,6 +133,8 @@ contract Block6 {
     // Helpers & Hints
     // -------------------------------------------------------------------------
     function _register(string _userName) onlyNewPlayers public {
+        bytes memory userName = bytes(_userName);
+        require(userName.length > 0);
         numberOfPlayers++;
         isPlaying[msg.sender] = true;
         playersName[msg.sender] = _userName;

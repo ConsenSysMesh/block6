@@ -1,4 +1,4 @@
-# Block6
+# Block6 💣 - Hacker's Night
 
 
 ## To Play
@@ -17,6 +17,12 @@
      ![image](https://user-images.githubusercontent.com/1683736/46763014-a6ceac80-cca6-11e8-9ceb-55842180c83d.png)
 
 
+5) Your good to go! 
+
+
+The goal of the game is to be the first player to call the ```defuseBomb()``` method on the smart contract.
+
+In order to call ```defuseBomb()``` you must **first** call each of the puzzle methods (```puzzle01``` - ```puzzle11```). The solutions to the puzzles will require some understanding of interacting with smart contracts, working with solidity, and smart contract security and exploits.
 
 
 ## Helpful Docs
@@ -24,3 +30,4 @@
 - [Sitepoint getting started with Smart Contracts](https://www.sitepoint.com/solidity-for-beginners-a-guide-to-getting-started/)
 - [Ethereum dev](https://ethereumdev.io/)
 - [Solidity Development](https://medium.com/coinmonks/solidity-development-creating-our-first-smart-contract-54943b47d7f3)
+- [Ethereum Smart Contract Security Best Practices](https://consensys.github.io/smart-contract-best-practices/)

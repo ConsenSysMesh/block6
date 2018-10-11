@@ -1,9 +1,9 @@
-# Block6 💣 - Hacker's Night
+# Block 6 💣 - Hacker's Night
 
 
 ## How To Play
 
-1) Get MetaMask setup on Rinkeby with some test ETH (Rinkeby ETH).
+1) Get [MetaMask](https://metamask.io/) setup on Rinkeby with some test ETH (Rinkeby ETH).
 
 2) Open [Remix](http://remix.ethereum.org/#optimize=true&version=soljson-v0.4.25+commit.59dbf8f1.js)
    

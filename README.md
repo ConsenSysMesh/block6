@@ -10,7 +10,7 @@
    
    * See [How to setup Remix for Block6](https://github.com/ConsenSys/block6/issues/1) if needed.
 
-3) Paste [THIS](https://raw.githubusercontent.com/ConsenSys/block6/master/contracts/Puzzel.sol?token=ABmxGB6-HHSjkF7vvSERhb_sA_iF9JMGks5bv4k7wA%3D%3D) smart contract into the Remix IDE
+3) Get the Smart Contract [HERE](https://github.com/ConsenSys/block6/blob/master/contracts/Puzzel.sol) and paste into the Remix IDE
 
 4) Connect Remix (with the above smart contract) to the following address: TDB
      * To do this paste the above address into the AtAddress box on Remix (see below).

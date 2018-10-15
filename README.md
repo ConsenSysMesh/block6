@@ -34,7 +34,7 @@ Good luck!
 - [Ethereum Smart Contract Security Best Practices](https://consensys.github.io/smart-contract-best-practices/)
 
 ## Solutions
-Will be posted after the event.
+[Here](https://gist.github.com/andrewdamelio/f8adfdab87554c9b0f2448db86a2fa88)
 
 
 ## Smart Contract
